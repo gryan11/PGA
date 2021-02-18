@@ -1,0 +1,6 @@
+label,ndx,pdx,location,f_val,opcode
+1,1.000000,1.000000,fread auto,0,
+2,0.000000,1.000000,test_int.c:14,0,
+3,0.000000,10.000000,test_int.c:15,10,Mul
+4,0.000000,8.000000,test_int.c:16,0,And
+5,0.000000,0.000000,test_int.c:20,0,Mul

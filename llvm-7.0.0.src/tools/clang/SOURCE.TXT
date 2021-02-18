@@ -1,0 +1,2 @@
+Cloned from: https://github.com/llvm-mirror/clang.git
+Branch     : release_70
