@@ -155,3 +155,6 @@ DFSAN_OPTIONS="samples=10,branch_barriers=1"  <program cmd>
 ```
 
 Note that with the default `branch_barriers` enabled, some gradients will be set to 0 depending on the execution path branch constraints. Set `branch_barriers=0` to disable this behavior.
+
+
+To improve performance, all logging can be disabled completely by setting the environment variable `GRSAN_DISABLE_LOGGING=1`. This setting is recommended if you are using separate instrumentation for logging gradients, or modifying your target source directly to log gradients.
