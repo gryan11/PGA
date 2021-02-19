@@ -1,6 +1,6 @@
 # PGA
 
-This repository contains the implementation of Proximal Gradient Analysis (PGA). PGA is implemented on a modified version of LLVM 7.0. Please see our paper, Fine Grained Dataflow Analysis with Proximal Gradients ([link](https://arxiv.org/pdf/1909.03461.pdf)) for more details.
+This repository contains the implementation of Proximal Gradient Analysis (PGA) based our paper 'Fine Grained Dataflow Analysis with Proximal Gradients' ([link](https://arxiv.org/pdf/1909.03461.pdf)) to appear in USENIX Security 2021. PGA is implemented on a modified version of LLVM 7.0's DataflowSanitizer.
 
 ## Building from Source
 The dependency list and instructions to build PGA are below. 
